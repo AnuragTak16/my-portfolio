@@ -4,7 +4,6 @@ import {
   Layers,
   Users,
   AlertTriangle,
-  Image,
   ChevronRight,
   ArrowLeft,
 } from "lucide-react";
@@ -67,11 +66,11 @@ export const Project = () => {
         "I built interactive and responsive front-end pages using ReactJS and React Router, and designed RESTful APIs with Express.js to handle all CRUD operations. MongoDB was integrated to manage product data and user carts/wishlists, while the front-end was connected to the back-end using Fetch and Axios to enable real-time updates. Additionally, I implemented effective state management and a component-based architecture to ensure scalability and maintainability of the application.",
       challenges:
         "To efficiently manage multiple API states such as loading, error, and success, I utilized RTK Query’s built-in selectors and hooks, which provided a clean and scalable approach to state handling. Additionally, to ensure seamless synchronization between frontend views and backend data, I leveraged RTK Query’s auto-refetch and cache invalidation features, allowing the UI to stay consistently updated with the latest data.",
-      screenshots: [
-        // "Main dashboard showing accounts overview",
-        // "Content calendar with scheduled posts",
-        // "Engagement analytics with visualization charts",
-      ],
+      // screenshots: [
+      //   // "Main dashboard showing accounts overview",
+      //   // "Content calendar with scheduled posts",
+      //   // "Engagement analytics with visualization charts",
+      // ],
     },
     // {
     //   id: 4,
@@ -193,11 +192,11 @@ export const Project = () => {
                 </div>
 
                 <div className="mb-4">
-                  <h3 className="text-lg font-medium text-gray-800 mb-3 flex items-center gap-2">
+                  {/* <h3 className="text-lg font-medium text-gray-800 mb-3 flex items-center gap-2">
                     <Image size={20} className="text-blue-500" />
                     Screenshots
-                  </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  </h3> */}
+                  {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {activeProjectData.screenshots.map((screenshot, index) => (
                       <div
                         key={index}
@@ -211,7 +210,7 @@ export const Project = () => {
                         </p>
                       </div>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
