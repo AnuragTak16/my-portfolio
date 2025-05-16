@@ -17,6 +17,7 @@ const App = () => {
         <Route path="/tech-stack" element={<TechStackShowcase />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/contact" element={<ContactSection />} />
+        <Route path="*" element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
   );
