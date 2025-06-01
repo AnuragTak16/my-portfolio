@@ -14,12 +14,11 @@ export const Portfolio = () => {
         <div className="sticky top-0 z-50 bg-gray-100 shadow-md">
           <Navbar />
         </div>
-
-        <div className="block md:hidden w-full h-64 relative z-0 mt-2">
+        <div className="block md:hidden w-full h-64 relative z-0 mt-20">
           <img
             src="/image/img3.jpeg"
             alt="Mobile Cover"
-            className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl "
           />
         </div>
 
@@ -115,7 +114,7 @@ export const Portfolio = () => {
         </div>
       </div>
 
-      <div className="flex-grow flex flex-col justify-center items-center px-4 md:px-8 text-center mt-4 md:mt-0">
+      <div className="flex-grow flex flex-col justify-center items-center px-4 text-center mt-[-157px]">
         <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-yellow-500 mb-6 md:mb-20 tracking-widest">
           HERE IT IS MY PORTFOLIO
         </h1>

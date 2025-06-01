@@ -69,14 +69,16 @@ export const TechStackShowcase = () => {
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 text-gray-800 p-6 font-sans">
       <div className="flex pt-6">
-        <button
-          onClick={() => navigate("/")}
-          aria-label="Go back to home"
-          className="flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-full shadow-md hover:bg-blue-300 transition duration-300"
-        >
-          <ArrowLeft className="w-5 h-5" />
-          Back
-        </button>
+        <div className="mb-6">
+          <button
+            onClick={() => navigate("/")}
+            className="flex items-center gap-2 bg-gray-100 text-gray-800 px-4 py-2 rounded-md shadow hover:bg-blue-200 transition"
+            aria-label="Go back to home"
+          >
+            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="text-sm sm:text-base">Back</span>
+          </button>
+        </div>
       </div>
       <div className="max-w-6xl mx-auto">
         <header className="mb-12 text-center">
@@ -88,7 +90,6 @@ export const TechStackShowcase = () => {
           </p>
         </header>
 
-        {/* Stack Navigation */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           {Object.entries(stacks).map(([key, stack]) => (
             <button
@@ -107,7 +108,6 @@ export const TechStackShowcase = () => {
           ))}
         </div>
 
-        {/* Stack Details */}
         <div className="relative">
           {Object.entries(stacks).map(([key, stack]) => (
             <div
@@ -150,7 +150,6 @@ export const TechStackShowcase = () => {
           ))}
         </div>
 
-        {/* Experience Bar */}
         <div className="mt-16">
           <div className="flex items-center mb-4">
             <Zap className="w-5 h-5 text-amber-500 mr-2" />

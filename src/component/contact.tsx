@@ -6,26 +6,25 @@ export const ContactSection = () => {
 
   return (
     <>
-      {/* Back Button */}
       <div className="flex pt-6 px-8 md:px-12">
-        <button
-          onClick={() => navigate("/")}
-          className="flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-full shadow-md hover:bg-blue-300 transition duration-300"
-          aria-label="Go back to home"
-        >
-          <ArrowLeft className="w-5 h-5" />
-          Back
-        </button>
+        <div className="mb-6">
+          <button
+            onClick={() => navigate("/")}
+            className="flex items-center gap-2 bg-gray-100 text-gray-800 px-4 py-2 rounded-md shadow hover:bg-blue-200 transition"
+            aria-label="Go back to home"
+          >
+            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="text-sm sm:text-base">Back</span>
+          </button>
+        </div>
       </div>
 
-      {/* Contact Section */}
       <section className="max-w-xl mx-auto bg-white rounded-3xl shadow-lg p-10 mt-12">
         <h2 className="text-3xl font-bold text-blue-700 mb-8 text-center">
           Get in Touch
         </h2>
 
         <div className="space-y-8">
-          {/* Email Card */}
           <div className="flex items-center space-x-5 bg-blue-50 p-5 rounded-xl shadow hover:shadow-md transition-shadow cursor-pointer">
             <Mail className="text-blue-600" size={32} />
             <a
@@ -36,7 +35,6 @@ export const ContactSection = () => {
             </a>
           </div>
 
-          {/* Phone Card */}
           <div className="flex items-center space-x-5 bg-blue-50 p-5 rounded-xl shadow hover:shadow-md transition-shadow cursor-pointer">
             <Phone className="text-blue-600" size={32} />
             <span className="text-lg font-medium text-blue-800">
@@ -52,7 +50,6 @@ export const ContactSection = () => {
             </a>
           </div>
 
-          {/* Social Links */}
           <div>
             <h3 className="text-xl font-semibold text-blue-700 mb-4 text-center">
               Find me on

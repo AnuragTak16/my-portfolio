@@ -101,13 +101,16 @@ export const Project = () => {
   return (
     <div className="bg-gray-50 min-h-screen p-6 font-sans">
       <div className="flex  pt-6">
-        <button
-          onClick={() => navigate("/")}
-          className="flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-full shadow-md hover:bg-blue-300 transition duration-300"
-        >
-          <ArrowLeft className="w-5 h-5" />
-          Back
-        </button>
+        <div className="mb-6">
+          <button
+            onClick={() => navigate("/")}
+            className="flex items-center gap-2 bg-gray-100 text-gray-800 px-4 py-2 rounded-md shadow hover:bg-blue-200 transition"
+            aria-label="Go back to home"
+          >
+            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="text-sm sm:text-base">Back</span>
+          </button>
+        </div>
       </div>
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-blue-800 mb-8">My Projects</h1>
