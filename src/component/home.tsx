@@ -10,25 +10,20 @@ export const Portfolio = () => {
 
   return (
     <div className="flex flex-col md:flex-row h-screen w-full">
-      {/* Left Side: Navbar + Image Grid */}
       <div className="w-full md:w-3/4 bg-gray-100 p-1 relative overflow-hidden rounded-2xl">
-        {/* Always-visible Navbar */}
         <div className="sticky top-0 z-50 bg-gray-100 shadow-md">
           <Navbar />
         </div>
 
-        {/* Mobile-only Image */}
         <div className="block md:hidden w-full h-64 relative z-0 mt-2">
           <img
-            src="/image/img1.jpeg"
+            src="/image/img3.jpeg"
             alt="Mobile Cover"
             className="absolute inset-0 w-full h-full object-cover rounded-2xl"
           />
         </div>
 
-        {/* Desktop-only Image Grid */}
         <div className="hidden md:grid grid-cols-12 grid-rows-12 gap-1 h-full overflow-hidden mt-2">
-          {/* Column 1 */}
           <div className="col-span-4 row-span-6 relative">
             <img
               src="/image/img1.jpeg"
@@ -58,7 +53,6 @@ export const Portfolio = () => {
             />
           </div>
 
-          {/* Column 2 */}
           <div className="col-span-4 row-span-3 col-start-5 row-start-1">
             <img
               src="/image/image5.avif"
@@ -89,7 +83,6 @@ export const Portfolio = () => {
             />
           </div>
 
-          {/* Column 3 */}
           <div className="col-span-4 row-span-3 col-start-9 row-start-1">
             <img
               src="/image/img9.webp"
@@ -122,7 +115,6 @@ export const Portfolio = () => {
         </div>
       </div>
 
-      {/* Right Side - Intro Section */}
       <div className="flex-grow flex flex-col justify-center items-center px-4 md:px-8 text-center mt-4 md:mt-0">
         <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-yellow-500 mb-6 md:mb-20 tracking-widest">
           HERE IT IS MY PORTFOLIO
