@@ -82,7 +82,7 @@ export const TechStackShowcase = () => {
       </div>
       <div className="max-w-6xl mx-auto">
         <header className="mb-12 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mt-8 mb-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
+          <h1 className="text-4xl md:text-5xl font-bold mt-8 mb-2 bg-clip-text  text-blue-600">
             My Technology Stack
           </h1>
           <p className="text-gray-600 text-lg">
