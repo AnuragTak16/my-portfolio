@@ -124,15 +124,15 @@ export const Portfolio = () => {
         <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-3">
           Hello, I'm Anurag Tak
         </h2>
-        <p className="text-lg sm:text-2xl md:text-3xl mb-3">
+        <p className="text-lg sm:text-2xl md:text-3xl  mt-5">
           Full Stack Developer
         </p>
-        <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-5 px-2 md:px-4">
+        <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-5 px-2 md:px-4">
           Passionate about creating beautiful, responsive web applications using
           modern technologies like React and Tailwind CSS.
         </p>
         <div className="border-t border-gray-200 pt-4 px-2 md:px-4">
-          <p className="text-sm sm:text-base md:text-xl text-gray-500">
+          <p className="text-sm sm:text-base md:text-xl text-gray-500 mt-5">
             I specialize in transforming designs into functional, elegant web
             experiences with clean code and attention to detail.
           </p>
