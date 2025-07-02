@@ -1,30 +1,14 @@
-import { ArrowLeft } from "lucide-react";
-import { useNavigate } from "react-router-dom";
-
 export const AboutMyself = () => {
-  const navigate = useNavigate();
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white px-4 py-6 sm:px-6 md:px-12">
-      {/* Back Button */}
-      <div className="mb-6">
-        <button
-          onClick={() => navigate("/")}
-          className="flex items-center gap-2 bg-gray-100 text-gray-800 px-4 py-2 rounded-md shadow hover:bg-blue-200 transition"
-        >
-          <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
-          <span className="text-sm sm:text-base">Back</span>
-        </button>
-      </div>
-
+    <div className='min-h-screen bg-gradient-to-br from-blue-50 to-white px-4 py-6 sm:px-6 md:px-12 '>
       {/* Main Content */}
-      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-4 sm:p-8 md:p-12 space-y-6 sm:space-y-8">
-        <h1 className="text-3xl sm:text-4xl font-bold text-blue-700 text-center">
+      <div className='max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-4 sm:p-8 md:p-12 space-y-6 sm:space-y-8'>
+        <h1 className='text-3xl sm:text-4xl font-bold text-blue-700 text-center'>
           About Myself
         </h1>
 
-        <section className="space-y-3 bg-blue-50 shadow-sm p-4 rounded-lg">
-          <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
+        <section className='space-y-3 bg-blue-50 shadow-sm p-4 rounded-lg'>
+          <p className='text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed'>
             Hello, I’m Anurag. I believe full-stack development lets me combine
             creativity with logic to build meaningful digital solutions. My
             journey began with curiosity about how websites work and gradually
@@ -44,11 +28,11 @@ export const AboutMyself = () => {
           </p>
         </section>
 
-        <section className="space-y-3">
-          <h2 className="text-xl sm:text-2xl font-semibold text-blue-600 text-center">
+        <section className='space-y-3'>
+          <h2 className='text-xl sm:text-2xl font-semibold text-blue-600 text-center'>
             Beyond Tech
           </h2>
-          <p className="text-gray-700 bg-blue-50 p-4 text-base sm:text-lg md:text-xl rounded-lg shadow-sm leading-relaxed">
+          <p className='text-gray-700 bg-blue-50 p-4 text-base sm:text-lg md:text-xl rounded-lg shadow-sm leading-relaxed'>
             Outside work, I play state-level badminton, enjoy old songs, and
             dream of building a better society through education and innovation.
             I am passionate about creating opportunities for underprivileged
