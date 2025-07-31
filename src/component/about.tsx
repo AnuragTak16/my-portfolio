@@ -2,7 +2,7 @@ export const AboutMyself = () => {
   return (
     <div className='min-h-screen bg-gradient-to-br from-blue-50 to-white px-4 py-6 sm:px-6 md:px-12 '>
       {/* Main Content */}
-      <div className='max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-4 sm:p-8 md:p-12 space-y-6 sm:space-y-8'>
+      <div className='max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-4 sm:p-8 md:p-12 space-y-6 sm:space-y-8 mt-10'>
         <h1 className='text-3xl sm:text-4xl font-bold text-blue-700 text-center'>
           About Myself
         </h1>

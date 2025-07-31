@@ -9,18 +9,18 @@ export const Portfolio = () => {
   };
 
   return (
-    <div className='flex flex-col md:flex-row h-screen w-full'>
+    <div className='flex flex-col md:flex-row h-screen w-full  '>
       <div className='w-full md:w-3/4 bg-gray-100 p-1 relative overflow-hidden rounded-2xl'>
         <div className='sticky top-0 z-50 bg-gray-100 shadow-md'>
           <Navbar />
         </div>
-        <div className='block md:hidden w-full h-64 relative z-0 mt-20'>
+        {/* <div className='block md:hidden w-full h-64 relative z-0 mt-20 bg-amber-200 '>
           <img
-            src='/image/img3.jpeg'
+            src='/portfoli2.png'
             alt='Mobile Cover'
             className='w-full h-full object-cover rounded-2xl '
           />
-        </div>
+        </div> */}
 
         <div className='hidden md:grid grid-cols-12 grid-rows-12 gap-1 h-full overflow-hidden mt-2'>
           <div className='col-span-4 row-span-6 relative'>
